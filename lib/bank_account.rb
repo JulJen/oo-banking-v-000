@@ -21,7 +21,7 @@ class BankAccount
   end
 
   def valid?
-    !@status 
+    !@status && @blance > =
   end
 
 
