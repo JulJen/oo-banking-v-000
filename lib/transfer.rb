@@ -1,7 +1,7 @@
 class Transfer
 
-    attr_accessor :amount, :status
-    attr_reader :name
+    attr_accessor :name, :amount, :status
+    # attr_reader :name
 
     def initialize(name)
       @name = name
