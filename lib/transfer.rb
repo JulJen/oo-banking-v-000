@@ -11,12 +11,7 @@ class Transfer
     end
 
     def valid?
-      # @sender == sender && @receiver == receiver
-      if @sender == sender && @receiver == receiver
-        @sender
-        @receiver
-      end 
-
+      @sender == sender && @receiver == receiver
     end
 
   # your code here
