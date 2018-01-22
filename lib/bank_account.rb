@@ -12,6 +12,7 @@ class BankAccount
 
   def deposit(amount)
     new_balance = @balance + amount
+    new_blance
   end
 
 end
