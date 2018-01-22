@@ -13,6 +13,9 @@ class Transfer
     def valid?
       # @sender == sender && @receiver == receiver
       if @sender == sender && @receiver == receiver
+        @sender
+        @receiver
+      end 
 
     end
 
