@@ -1,11 +1,11 @@
 class BankAccount
 
-  attr_accessor :name
-  attr_reader :balance, :status
+  attr_accessor
+  attr_reader :name, :balance, :status
 
 
-  def initialize(name)
-    @name = name
+  def initialize
+    @name = "Bob"
     @balance = 1000
     @status = 'open'
   end
