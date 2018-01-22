@@ -5,7 +5,7 @@ class Transfer
     attr_writer :name
 
     def initialize
-      @name = name
+      # @name = name
       @amount = 50
       @status = 'pending'
     end
