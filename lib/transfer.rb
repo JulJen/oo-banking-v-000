@@ -15,5 +15,8 @@ class Transfer
       # @sender == sender && @receiver == receiver
     end
 
+    def execute_transaction
+    end 
+
 
 end
