@@ -16,7 +16,8 @@ class Transfer
     end
 
     def execute_transaction
-    end 
+      @mount = @sender.balance
+    end
 
 
 end
