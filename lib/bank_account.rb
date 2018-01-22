@@ -14,7 +14,7 @@ class BankAccount
     current_amount = @balance += amount
   end
 
-  def display_balance
+  def display_balance(amount)
     "Your balance is $#{deposit(amount)}."
   end
 
