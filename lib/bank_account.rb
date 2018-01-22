@@ -1,8 +1,8 @@
 class BankAccount
 
-  attr_accessor :balance
+  attr_accessor :balance, :status
+  attr_reader :name
   # , :status
-  attr_reader :name , :status
   # attr_writer :status
 
 
