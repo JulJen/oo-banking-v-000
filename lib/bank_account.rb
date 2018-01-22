@@ -21,6 +21,7 @@ class BankAccount
   end
 
   def valid?
+    !@status 
   end
 
 
