@@ -3,7 +3,7 @@ class Transfer
     attr_accessor :name, :amount, :status
     # attr_reader :name
 
-    def initialize(name)
+    def initialize
       @name = name
       @amount = 50
       @status = 'pending'
