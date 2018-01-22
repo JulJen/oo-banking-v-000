@@ -24,9 +24,9 @@ class BankAccount
   end
 
   def valid?
-    @broke == self.name
+    # @broke == self.name
     # @closed = self.status
-    # !@status && @balance > 0
+    @status && @balance > 0
   end
 
 
