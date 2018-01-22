@@ -24,7 +24,7 @@ class BankAccount
   end
 
   def valid?
-    @status == self && @balance > 0
+    @status == 'open' && @balance > 0
   end
 
 
