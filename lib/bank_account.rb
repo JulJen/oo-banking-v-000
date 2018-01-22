@@ -15,6 +15,7 @@ class BankAccount
   end
 
   def display_balance
+    deposit(amount)
   end
 
 end
