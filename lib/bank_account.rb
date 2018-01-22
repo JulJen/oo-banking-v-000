@@ -4,7 +4,7 @@ class BankAccount
   # , :status
   attr_reader :name
   # , :status
-  attr_writer :status
+  # attr_writer :status
 
 
   def initialize(name)
