@@ -22,6 +22,7 @@ class BankAccount
   end
 
   def valid?
+    @broke = self.new
     !@status && @balance > 0
   end
 
