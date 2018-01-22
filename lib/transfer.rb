@@ -27,7 +27,7 @@ class Transfer
     end
 
     def reverse_transfer
-      if
+      if @sender.balance
         @status = "reversed"
     end
 
