@@ -15,5 +15,5 @@ class Transfer
       # @sender == sender && @receiver == receiver
     end
 
-  # your code here
+
 end
